@@ -1,0 +1,57 @@
+:root {
+  --main-bg-color: #1d2130;
+  --main-txt-color: white;
+  --secondary-txt-color: #3c8aff;
+  --main-line-color: rgba(255, 255, 255, 0.3);
+}
+
+body {
+  background-color: var(--main-bg-color);
+  font-family: 'Roboto', 'Open Sans';
+  color: var(--main-txt-color);
+}
+
+p {
+  font-family: 'Open Sans';
+}
+
+.app-title {
+  position: relative;
+  top: -5px;
+}
+
+.genre-input {
+  height: 30px;
+}
+
+.subtitle {
+  font-weight: bold;
+  color: var(--secondary-txt-color);
+}
+
+.line::before {
+  content: '';
+  width: 60%;
+  height: 5px;
+  background: red;
+  position: absolute;
+  bottom: -5px;
+  left: 0;
+}
+
+.most-popular-img img,
+.new-things-img img {
+  width: 100%;
+  border-radius: 20px;
+}
+
+.movie-name {
+  font-size: 0.9em;
+}
+
+.top-border {
+  border-top: var(--main-line-color) 1px solid;
+  margin: 0 auto;
+  position: relative;
+  content: '';
+}
