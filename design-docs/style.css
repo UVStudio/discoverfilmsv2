@@ -55,3 +55,34 @@ p {
   position: relative;
   content: '';
 }
+
+.row-top-border {
+  border-top: var(--main-line-color) 1px solid;
+  margin: 0 auto;
+  width: 98%;
+  position: relative;
+  content: '';
+}
+
+.genre-rectangle {
+  height: 65px;
+  width: 100%;
+  background-color: #30374f;
+  border-radius: 15px;
+}
+
+.genre-title {
+  padding: 18px 0 18px 40px;
+  font-family: 'Open Sans';
+  position: relative;
+  font-weight: 100;
+  font-size: 1em;
+  top: 2px;
+}
+
+.arrow {
+  position: relative;
+  font-family: 'Raleway';
+  top: 10px;
+  left: -10px;
+}
